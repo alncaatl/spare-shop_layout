@@ -17,58 +17,64 @@
 
 <body class="root">
 <header class="header">
-  <div class="wrapper header__container">
+  <div class="wrapper">
 
-    <a class="logo" href="index.html">
-      <img class="logo__img"
-           alt="Логотип"
-           src="#">
-    </a>
+    <div class="header__top">
+      <a class="logo logo_placed_header" href="index.html">
+        <img class="logo__img"
+             alt="Логотип"
+             src="#">
+      </a>
 
-    <ul class="user-menu">
-      <li class="user-menu__item">
-        <a href="#">Войти</a>
-      </li>
-      <li class="user-menu__item">
-        <a href="#">Регистрация</a>
-      </li>
-      <li class="user-menu__item">
-        <a href="#">Избранное</a>
-      </li>
-    </ul>
+      <div class="header__menu">
+        <ul class="user-menu hidden">
+          <li class="user-menu__item">
+            <a href="#">Войти</a>
+          </li>
+          <li class="user-menu__item">
+            <a href="#">Регистрация</a>
+          </li>
+          <li class="user-menu__item">
+            <a href="#">Избранное</a>
+          </li>
+        </ul>
 
-    <menu class="main-menu">
-      <li class="main-menu__item">
-        <a href="#">Магазины</a>
-      </li>
-      <li class="main-menu__item">
-        <a href="#">Акции</a>
-      </li>
-      <li class="main-menu__item">
-        <a href="#">Доставка и оплата</a>
-      </li>
-    </menu>
+        <menu class="main-menu">
+          <li class="main-menu__item">
+            <a href="#">Магазины</a>
+          </li>
+          <li class="main-menu__item">
+            <a href="#">Акции</a>
+          </li>
+          <li class="main-menu__item">
+            <a href="#">Доставка и оплата</a>
+          </li>
+        </menu>
 
-    <ul class="user-nav">
-      <li class="user-nav__item">
-        <a href="#">
-          <img src="#" alt="icon">
-        </a>
-      </li>
-      <li class="user-nav__item">
-        <a href="#">
-          <img src="#" alt="icon">
-        </a>
-      </li>
-      <li class="user-nav__item">
-        <a href="#">
-          <img src="#" alt="icon">
-        </a>
-      </li>
-    </ul>
+        <a class="header__address">Санкт-Петербург, ул Большая Конюшенная, д 19</a>
+      </div>
 
-    <nav class="nav header__bottom">
-      <ul class="catalog">
+      <ul class="user-nav">
+        <li class="user-nav__item">
+          <a href="#">
+            <img src="#" alt="icon">
+          </a>
+        </li>
+        <li class="user-nav__item">
+          <a href="#">
+            <img src="#" alt="icon">
+          </a>
+        </li>
+        <li class="user-nav__item">
+          <a href="#">
+            <img src="#" alt="icon">
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <nav class="header__nav">
+      <ul class="categories">
         <li class="catalog__item">
           <a href="#">Каталог запчастей</a>
         </li>
@@ -95,10 +101,8 @@
         </li>
       </ul>
     </nav>
-
-    <a class="location">Санкт-Петербург, ул Большая Конюшенная, д 19</a>
-
   </div>
+
 </header>
 
 <main></main>

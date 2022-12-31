@@ -1,3 +1,7 @@
+/* Defines the width of the content on the page.
+ So ready to varies between different blocks.
+ */
+
 .wrapper {
     margin: 0 auto;
     max-width: 1170px;

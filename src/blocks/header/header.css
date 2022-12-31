@@ -1,5 +1,14 @@
+@import url('../hidden/hidden.css');
+@import url('../logo/logo.css');
+@import url('../main-menu/main-menu.css');
+@import url('../user-nav/user-nav.css');
 @import url('../wrapper/wrapper.css');
 
-.header {
+@import url('__address/header__address.css');
+@import url('__menu/header__menu.css');
+@import url('__nav/header__nav.css');
+@import url('__top/header__top.css');
 
+.header {
+    width: 100%;
 }
