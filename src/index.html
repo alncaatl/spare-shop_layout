@@ -17,19 +17,19 @@
 
 <body class="root">
 <header class="header">
-  <div class="wrapper">
+  <div class="wrapper header__container">
 
     <div class="header__top">
       <a class="logo logo_placed_header" href="index.html">
         <img class="logo__img"
-             alt="Логотип"
-             src="#">
+             alt="Логотип магазина"
+             src="images/logo.svg">
       </a>
 
       <div class="header__menu">
         <ul class="user-menu hidden">
           <li class="user-menu__item">
-            <a href="#">Войти</a>
+            <a class="link" href="#">Войти</a>
           </li>
           <li class="user-menu__item">
             <a href="#">Регистрация</a>
@@ -41,68 +41,81 @@
 
         <menu class="main-menu">
           <li class="main-menu__item">
-            <a href="#">Магазины</a>
+            <a class="link" href="#">Магазины</a>
           </li>
           <li class="main-menu__item">
-            <a href="#">Акции</a>
+            <a class="link" href="#">Акции</a>
           </li>
           <li class="main-menu__item">
-            <a href="#">Доставка и оплата</a>
+            <a class="link" href="#">Доставка и оплата</a>
           </li>
         </menu>
 
-        <a class="header__address">Санкт-Петербург, ул Большая Конюшенная, д 19</a>
+        <a class="header__address link" href="#">Санкт-Петербург, ул Большая Конюшенная, д 19</a>
       </div>
 
       <ul class="user-nav">
         <li class="user-nav__item">
           <a href="#">
-            <img src="#" alt="icon">
+            <svg viewBox="0 0 27.5 27.5" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7.367 1.206 C3.478 1.206 0.392 4.773 1.102 9.892 1.718 14.335 12.322 23.206 13.5 23.206 14.678 23.206 25.282 14.335 25.898 9.892 26.608 4.773 23.521 1.206 19.633 1.206 17.041 1.206 15.022 2.296 13.5 4.476 11.978 2.296 9.959 1.206 7.367 1.206 Z"
+              />
+            </svg>
           </a>
         </li>
         <li class="user-nav__item">
           <a href="#">
-            <img src="#" alt="icon">
+            <svg viewBox="0 0 27.5 27.5" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 14.993 C14.75 14.993 17.5 12.785 17.5 8.621 17.5 4.457 15.667 1.958 12 1.958 8.333 1.958 6.5 5.331 6.5 8.621 6.5 12.785 9.25 14.993 12 14.993 Z M12 14.993 C17.5 14.993 23 19.386 23 24.445 L1 24.445 C1 19.948 6.5 14.993 12 14.993 Z"
+              />
+            </svg>
           </a>
         </li>
         <li class="user-nav__item">
           <a href="#">
-            <img src="#" alt="icon">
+            <svg viewBox="0 0 29 27.5" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 1.93616H3.88425C4.33141 1.93616 4.72423 2.23303 4.84628 2.66321L9.07372 17.5635C9.19577 17.9937 9.58859 18.2906 10.0358 18.2906H24.7568C25.2075 18.2906 25.6025 17.9892 25.7214 17.5545L28.6542 6.83436C28.8283 6.19804 28.3494 5.57048 27.6897 5.57048H5.67111"/>
+              <path d="M15 23.9125C15 25.3568 13.8602 26.49 12.5 26.49C11.1398 26.49 10 25.3568 10 23.9125C10 22.4682 11.1398 21.335 12.5 21.335C13.8602 21.335 15 22.4682 15 23.9125Z"/>
+              <path d="M24 23.9125C24 25.3568 22.8602 26.49 21.5 26.49C20.1398 26.49 19 25.3568 19 23.9125C19 22.4682 20.1398 21.335 21.5 21.335C22.8602 21.335 24 22.4682 24 23.9125Z"/>
+            </svg>
           </a>
+          <span class="user-nav__cart-counter">1</span>
         </li>
       </ul>
     </div>
 
     <nav class="header__nav">
       <ul class="categories">
-        <li class="catalog__item">
-          <a href="#">Каталог запчастей</a>
+        <li class="categories__item">
+          <a class="link" href="#">Каталог запчастей</a>
         </li>
-        <li class="catalog__item">
-          <a href="#">Каталог ТО</a>
+        <li class="categories__item">
+          <a class="link" href="#">Каталог ТО</a>
         </li>
-        <li class="catalog__item">
-          <a href="#">Шины</a>
+        <li class="categories__item categories__item_active">
+          <a class="link" href="#">Шины</a>
         </li>
-        <li class="catalog__item">
-          <a href="#">Диски</a>
+        <li class="categories__item">
+          <a class="link" href="#">Диски</a>
         </li>
-        <li class="catalog__item">
-          <a href="#">Аккумуляторы</a>
+        <li class="categories__item">
+          <a class="link" href="#">Аккумуляторы</a>
         </li>
-        <li class="catalog__item">
-          <a href="#">Автомасла</a>
+        <li class="categories__item">
+          <a class="link" href="#">Автомасла</a>
         </li>
-        <li class="catalog__item">
-          <a href="#">Автолампы</a>
+        <li class="categories__item">
+          <a class="link" href="#">Автолампы</a>
         </li>
-        <li class="catalog__item">
-          <a href="#">Аксессуары</a>
+        <li class="categories__item">
+          <a class="link" href="#">Аксессуары</a>
         </li>
       </ul>
     </nav>
-  </div>
 
+  </div>
 </header>
 
 <main></main>

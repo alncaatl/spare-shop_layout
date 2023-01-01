@@ -1,0 +1,16 @@
+.categories__item_active {
+    font-weight: bold;
+    position: relative;
+}
+
+.categories__item_active::after {
+    position: absolute;
+    bottom: -16px;
+    left: -10px;
+    right: -10px;
+
+    content: '';
+    display: block;
+    height: 3px;
+    background-color: #ff7931;
+}

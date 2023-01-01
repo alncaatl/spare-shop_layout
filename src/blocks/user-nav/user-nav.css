@@ -1,7 +1,12 @@
+@import url('__item/user-nav__item.css');
+@import url('__cart-counter/user-nav__cart-counter.css');
+
 .user-nav {
     padding: 0;
+    margin-right: 12px;
     list-style: none;
 
     display: flex;
     justify-content: flex-end;
+    gap: 15px;
 }

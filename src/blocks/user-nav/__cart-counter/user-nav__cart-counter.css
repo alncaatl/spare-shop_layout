@@ -1,0 +1,19 @@
+.user-nav__cart-counter {
+    position: absolute;
+    top: 35%;
+    left: 55%;
+
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color: #FF7931;
+    cursor: pointer;
+
+    color: #fff;
+    font-size: 12px;
+    line-height: 14px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

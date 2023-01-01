@@ -1,3 +1,18 @@
 .header__address {
-    max-width: 270px;
+    max-width: 280px;
+    font-weight: bold;
+    position: relative;
+    transform: translateY(10px);
+}
+
+.header__address::before {
+    content: '';
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: url('../../../images/location_icon.svg') no-repeat center;
+    margin-right: 10px;
+
+    position: absolute;
+    left: -50px;
 }

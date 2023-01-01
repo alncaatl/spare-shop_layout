@@ -1,0 +1,18 @@
+.user-nav__item {
+    fill: none;
+    stroke-width: 2px;
+    stroke: #a8a8a8;
+
+    width: 25px;
+    height: 25px;
+
+    position: relative;
+}
+
+.user-nav__item:hover {
+    stroke: #ced4da;
+}
+
+.user-nav__item:hover .user-nav__cart-counter {
+    background-color: #ffa94d;
+}

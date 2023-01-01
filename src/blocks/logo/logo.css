@@ -1,1 +1,5 @@
 @import url('_placed/_header/logo_placed_header.css');
+
+.logo {
+    z-index: 1;
+}

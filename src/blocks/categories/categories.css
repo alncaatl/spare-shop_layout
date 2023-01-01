@@ -1,6 +1,9 @@
+@import url('__item/categories__item.css');
+
 .categories {
     list-style: none;
     padding: 0;
+    margin: 15px 0;
 
     display: flex;
     justify-content: space-between;
