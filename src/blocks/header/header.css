@@ -16,8 +16,14 @@
     height: 175px;
 }
 
-@media (max-width: 1079px) {
+@media screen and (max-width: 1079px) {
     .header {
         height: 150px;
+    }
+}
+
+@media screen and (max-width: 939px) {
+    .header {
+        height: 130px;
     }
 }
