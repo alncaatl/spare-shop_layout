@@ -6,3 +6,15 @@
     gap: 25px;
     flex-grow: 1;
 }
+
+@media (max-width: 1079px) {
+    .header__top {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 1039px) {
+    .header__top {
+        gap: 10px;
+    }
+}

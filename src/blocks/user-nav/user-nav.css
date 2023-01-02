@@ -10,3 +10,9 @@
     justify-content: flex-end;
     gap: 15px;
 }
+
+@media (max-width: 1079px) {
+    .user-nav {
+        gap: 10px;
+    }
+}
