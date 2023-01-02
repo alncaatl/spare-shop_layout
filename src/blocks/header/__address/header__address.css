@@ -17,7 +17,7 @@
     left: -50px;
 }
 
-@media (max-width: 1079px) {
+@media screen and (max-width: 1079px) {
     .header__address {
         font-size: 16px;
         max-width: 230px;
@@ -29,5 +29,11 @@
         height: 25px;
         left: -38px;
         top: 3px;
+    }
+}
+
+@media screen and (max-width: 939px) {
+    .header__address {
+        display: none;
     }
 }

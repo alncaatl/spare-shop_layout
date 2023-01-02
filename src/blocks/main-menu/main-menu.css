@@ -9,9 +9,15 @@
     max-width: 450px;
 }
 
-@media (max-width: 1079px) {
+@media screen and (max-width: 1079px) {
     .main-menu {
         max-width: 370px;
         font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 939px) {
+    .main-menu {
+        display: none;
     }
 }

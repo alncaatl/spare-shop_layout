@@ -1,3 +1,6 @@
+@import url('../../button/button.css');
+@import url('../../button/__burger/button__burger.css');
+
 .header__top {
     display: flex;
     flex-wrap: wrap;
@@ -7,13 +10,13 @@
     flex-grow: 1;
 }
 
-@media (max-width: 1079px) {
+@media screen and (max-width: 1079px) {
     .header__top {
         gap: 20px;
     }
 }
 
-@media (max-width: 1039px) {
+@media screen and (max-width: 1039px) {
     .header__top {
         gap: 10px;
     }

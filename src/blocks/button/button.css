@@ -1,0 +1,14 @@
+.button {
+    box-sizing: border-box;
+    border: none;
+    background: none;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    cursor: pointer;
+}
+
+.button:focus {
+    outline: none;
+}

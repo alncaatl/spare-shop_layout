@@ -14,3 +14,12 @@
     height: 3px;
     background-color: #ff7931;
 }
+
+
+@media screen and (max-width: 939px) {
+    .categories__item_active::after {
+        bottom: -10px;
+        left: 0;
+        right: 0;
+    }
+}

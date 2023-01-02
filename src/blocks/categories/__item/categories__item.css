@@ -1,1 +1,16 @@
 @import url('_active/categories__item_active.css');
+
+.categories__item {
+    white-space: nowrap;
+}
+
+
+@media screen and (max-width: 939px) {
+    .categories__item:first-of-type {
+        padding-left: 15px;
+    }
+
+    .categories__item:last-of-type {
+        padding-right: 15px;
+    }
+}
