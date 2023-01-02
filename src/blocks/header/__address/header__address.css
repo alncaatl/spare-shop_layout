@@ -2,7 +2,7 @@
     max-width: 280px;
     font-weight: bold;
     position: relative;
-    transform: translateY(10px);
+    transform: translate(-7px, 14px);
 }
 
 .header__address::before {
@@ -14,7 +14,7 @@
     margin-right: 10px;
 
     position: absolute;
-    left: -50px;
+    left: -45px;
 }
 
 @media screen and (max-width: 1079px) {
