@@ -16,118 +16,217 @@
 </head>
 
 <body class="root">
-<header class="header">
-  <div class="wrapper header__container">
 
-    <div class="header__top-row">
-      <button class="button button_type_burger">
-        <svg width="100%" height="100%" viewBox="0 0 33 28" xmlns="http://www.w3.org/2000/svg">
-          <rect y="0.831909" width="33" height="3" rx="1.5" fill="#C4C4C4"/>
-          <rect y="12.8319" width="33" height="3" rx="1.5" fill="#C4C4C4"/>
-          <rect y="24.8319" width="33" height="3" rx="1.5" fill="#C4C4C4"/>
-        </svg>
-      </button>
+  <header class="header">
+    <div class="wrapper header__container">
 
-      <a class="logo logo_placed_header" href="index.html">
-        <img class="logo__image"
-             alt="Логотип магазина"
-             src="images/logo.svg">
-      </a>
+      <div class="header__top-row">
+        <button class="button button_type_burger">
+          <svg width="100%" height="100%" viewBox="0 0 33 28" xmlns="http://www.w3.org/2000/svg">
+            <rect y="0.831909" width="33" height="3" rx="1.5" fill="#C4C4C4"/>
+            <rect y="12.8319" width="33" height="3" rx="1.5" fill="#C4C4C4"/>
+            <rect y="24.8319" width="33" height="3" rx="1.5" fill="#C4C4C4"/>
+          </svg>
+        </button>
 
-      <div class="header__menu">
-        <ul class="user-menu hidden">
-          <li class="user-menu__item">
-            <a class="link" href="#">Войти</a>
+        <a class="logo logo_placed_header" href="index.html">
+          <img class="logo__image"
+               alt="Логотип магазина"
+               src="images/logo.svg">
+        </a>
+
+        <div class="header__menu">
+          <ul class="user-menu hidden">
+            <li class="user-menu__item">
+              <a class="link" href="#">Войти</a>
+            </li>
+            <li class="user-menu__item">
+              <a href="#">Регистрация</a>
+            </li>
+            <li class="user-menu__item">
+              <a href="#">Избранное</a>
+            </li>
+          </ul>
+
+          <menu class="main-menu">
+            <li class="main-menu__item">
+              <a class="link" href="#">Магазины</a>
+            </li>
+            <li class="main-menu__item">
+              <a class="link" href="#">Акции</a>
+            </li>
+            <li class="main-menu__item">
+              <a class="link" href="#">Доставка и оплата</a>
+            </li>
+          </menu>
+
+          <a class="header__address link" href="#">Санкт-Петербург, ул Большая Конюшенная, д 19</a>
+        </div>
+
+        <ul class="user-nav">
+          <li class="user-nav__item">
+            <a href="#">
+              <svg viewBox="0 0 27.5 27.5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M7.367 1.206 C3.478 1.206 0.392 4.773 1.102 9.892 1.718 14.335 12.322 23.206 13.5 23.206 14.678 23.206 25.282 14.335 25.898 9.892 26.608 4.773 23.521 1.206 19.633 1.206 17.041 1.206 15.022 2.296 13.5 4.476 11.978 2.296 9.959 1.206 7.367 1.206 Z"
+                />
+              </svg>
+            </a>
           </li>
-          <li class="user-menu__item">
-            <a href="#">Регистрация</a>
+          <li class="user-nav__item">
+            <a href="#">
+              <svg viewBox="0 0 27.5 27.5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12 14.993 C14.75 14.993 17.5 12.785 17.5 8.621 17.5 4.457 15.667 1.958 12 1.958 8.333 1.958 6.5 5.331 6.5 8.621 6.5 12.785 9.25 14.993 12 14.993 Z M12 14.993 C17.5 14.993 23 19.386 23 24.445 L1 24.445 C1 19.948 6.5 14.993 12 14.993 Z"
+                />
+              </svg>
+            </a>
           </li>
-          <li class="user-menu__item">
-            <a href="#">Избранное</a>
+          <li class="user-nav__item">
+            <a href="#">
+              <svg viewBox="0 0 29 27.5" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 1.93616H3.88425C4.33141 1.93616 4.72423 2.23303 4.84628 2.66321L9.07372 17.5635C9.19577 17.9937 9.58859 18.2906 10.0358 18.2906H24.7568C25.2075 18.2906 25.6025 17.9892 25.7214 17.5545L28.6542 6.83436C28.8283 6.19804 28.3494 5.57048 27.6897 5.57048H5.67111"/>
+                <path d="M15 23.9125C15 25.3568 13.8602 26.49 12.5 26.49C11.1398 26.49 10 25.3568 10 23.9125C10 22.4682 11.1398 21.335 12.5 21.335C13.8602 21.335 15 22.4682 15 23.9125Z"/>
+                <path d="M24 23.9125C24 25.3568 22.8602 26.49 21.5 26.49C20.1398 26.49 19 25.3568 19 23.9125C19 22.4682 20.1398 21.335 21.5 21.335C22.8602 21.335 24 22.4682 24 23.9125Z"/>
+              </svg>
+            </a>
+            <span class="user-nav__cart-counter">1</span>
           </li>
         </ul>
+      </div>
 
-        <menu class="main-menu">
-          <li class="main-menu__item">
-            <a class="link" href="#">Магазины</a>
+      <nav class="header__nav-row">
+        <ul class="categories">
+          <li class="categories__item">
+            <a class="link" href="#">Каталог запчастей</a>
           </li>
-          <li class="main-menu__item">
+          <li class="categories__item">
+            <a class="link" href="#">Каталог ТО</a>
+          </li>
+          <li class="categories__item categories__item_active">
+            <a class="link" href="#">Шины</a>
+          </li>
+          <li class="categories__item">
+            <a class="link" href="#">Диски</a>
+          </li>
+          <li class="categories__item">
+            <a class="link" href="#">Аккумуляторы</a>
+          </li>
+          <li class="categories__item">
+            <a class="link" href="#">Автомасла</a>
+          </li>
+          <li class="categories__item">
+            <a class="link" href="#">Автолампы</a>
+          </li>
+          <li class="categories__item">
+            <a class="link" href="#">Аксессуары</a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrapper">
+
+      <form class="form form_type_subscribe">
+        <p class="form__description">
+          Подпишитесь на нашу рассылку и узнавайте об акциях быстрее
+        </p>
+        <div class="form__row">
+          <label for="email" class="hidden">Введите ваш e-mail</label>
+          <input id="email" class="form__input" type="email" placeholder="Введите ваш e-mail:" required="">
+          <button class="button form__button button_type_submit" type="submit">
+            Подписаться
+          </button>
+        </div>
+      </form>
+
+      <div class="footer__content">
+
+        <div class="footer__section">
+          <h3 class="footer-menu__section-header">
+            <a href="#">Информация</a>
+          </h3>
+          <menu class="footer-menu">
+            <li class="footer-menu__item">
+              <a class="link" href="#">О компании</a>
+            </li>
+            <li class="footer-menu__item">
+              <a class="link" href="#">Контакты</a>
+            </li>
+            <li class="footer-menu__item">
+              <a class="link" href="#">Реквизиты</a>
+            </li>
+            <li class="footer-menu__item">
+              <a class="link" href="#">Магазины</a>
+            </li>
+          </menu>
+        </div>
+
+        <div class="footer__section">
+          <h3 class="footer-menu__section-header">
+            <a href="#">Сервисный центр</a>
+          </h3>
+          <menu class="footer-menu">
+            <li class="footer-menu__item">
+              <a class="link" href="#">Доставка и самовывоз</a>
+            </li>
+            <li class="footer-menu__item">
+              <a class="link" href="#">Оплата</a>
+            </li>
+            <li class="footer-menu__item">
+              <a class="link" href="#">Возврат-обмен</a>
+            </li>
+            <li class="footer-menu__item">
+              <a class="link" href="#">Новости</a>
+            </li>
+          </menu>
+        </div>
+
+        <div class="footer__section">
+          <h3 class="footer-menu__section-header">
+            <a href="#">Интернет-магазин</a>
+          </h3>
+          <menu class="footer-menu">
+            <li class="footer-menu__item">
+              <a class="link" href="#">Доставка и самовывоз</a>
+            </li>
+            <li class="footer-menu__item">
+              <a class="link" href="#">Оплата</a>
+            </li>
+            <li class="footer-menu__item">
+              <a class="link" href="#">Возврат-обмен</a>
+            </li>
+            <li class="footer-menu__item">
+              <a class="link" href="#">Новости</a>
+            </li>
+          </menu>
+        </div>
+
+        <menu class="footer-menu">
+          <li class="footer-menu__item">
             <a class="link" href="#">Акции</a>
           </li>
-          <li class="main-menu__item">
-            <a class="link" href="#">Доставка и оплата</a>
+          <li class="footer-menu__item">
+            <a class="link" href="#">Договор оферты</a>
+          </li>
+          <li class="footer-menu__item">
+            <a class="link" href="#">Политика обработки персональных данных</a>
           </li>
         </menu>
 
-        <a class="header__address link" href="#">Санкт-Петербург, ул Большая Конюшенная, д 19</a>
       </div>
 
-      <ul class="user-nav">
-        <li class="user-nav__item">
-          <a href="#">
-            <svg viewBox="0 0 27.5 27.5" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M7.367 1.206 C3.478 1.206 0.392 4.773 1.102 9.892 1.718 14.335 12.322 23.206 13.5 23.206 14.678 23.206 25.282 14.335 25.898 9.892 26.608 4.773 23.521 1.206 19.633 1.206 17.041 1.206 15.022 2.296 13.5 4.476 11.978 2.296 9.959 1.206 7.367 1.206 Z"
-              />
-            </svg>
-          </a>
-        </li>
-        <li class="user-nav__item">
-          <a href="#">
-            <svg viewBox="0 0 27.5 27.5" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M12 14.993 C14.75 14.993 17.5 12.785 17.5 8.621 17.5 4.457 15.667 1.958 12 1.958 8.333 1.958 6.5 5.331 6.5 8.621 6.5 12.785 9.25 14.993 12 14.993 Z M12 14.993 C17.5 14.993 23 19.386 23 24.445 L1 24.445 C1 19.948 6.5 14.993 12 14.993 Z"
-              />
-            </svg>
-          </a>
-        </li>
-        <li class="user-nav__item">
-          <a href="#">
-            <svg viewBox="0 0 29 27.5" xmlns="http://www.w3.org/2000/svg">
-              <path d="M0 1.93616H3.88425C4.33141 1.93616 4.72423 2.23303 4.84628 2.66321L9.07372 17.5635C9.19577 17.9937 9.58859 18.2906 10.0358 18.2906H24.7568C25.2075 18.2906 25.6025 17.9892 25.7214 17.5545L28.6542 6.83436C28.8283 6.19804 28.3494 5.57048 27.6897 5.57048H5.67111"/>
-              <path d="M15 23.9125C15 25.3568 13.8602 26.49 12.5 26.49C11.1398 26.49 10 25.3568 10 23.9125C10 22.4682 11.1398 21.335 12.5 21.335C13.8602 21.335 15 22.4682 15 23.9125Z"/>
-              <path d="M24 23.9125C24 25.3568 22.8602 26.49 21.5 26.49C20.1398 26.49 19 25.3568 19 23.9125C19 22.4682 20.1398 21.335 21.5 21.335C22.8602 21.335 24 22.4682 24 23.9125Z"/>
-            </svg>
-          </a>
-          <span class="user-nav__cart-counter">1</span>
-        </li>
-      </ul>
+      <small class="footer__small-text">Интернет-магазин автозапчастей</small>
+
     </div>
+  </footer>
 
-    <nav class="header__nav-row">
-      <ul class="categories">
-        <li class="categories__item">
-          <a class="link" href="#">Каталог запчастей</a>
-        </li>
-        <li class="categories__item">
-          <a class="link" href="#">Каталог ТО</a>
-        </li>
-        <li class="categories__item categories__item_active">
-          <a class="link" href="#">Шины</a>
-        </li>
-        <li class="categories__item">
-          <a class="link" href="#">Диски</a>
-        </li>
-        <li class="categories__item">
-          <a class="link" href="#">Аккумуляторы</a>
-        </li>
-        <li class="categories__item">
-          <a class="link" href="#">Автомасла</a>
-        </li>
-        <li class="categories__item">
-          <a class="link" href="#">Автолампы</a>
-        </li>
-        <li class="categories__item">
-          <a class="link" href="#">Аксессуары</a>
-        </li>
-      </ul>
-    </nav>
-
-  </div>
-</header>
-
-<main></main>
-
-<footer></footer>
 </body>
 </html>
