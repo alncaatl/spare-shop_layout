@@ -1,7 +1,13 @@
 @import url('../../button/button.css');
-@import url('../../button/__burger/button__burger.css');
+@import url('../../button/_type/_burger/button_type_burger.css');
+@import url('../../logo/logo.css');
+@import url('../../main-menu/main-menu.css');
+@import url('../../user-nav/user-nav.css');
 
-.header__top {
+@import url('../__address/header__address.css');
+@import url('../__menu/header__menu.css');
+
+.header__top-raw {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -11,19 +17,19 @@
 }
 
 @media screen and (min-width: 1040px) and (max-width: 1079px) {
-    .header__top {
+    .header__top-raw {
         gap: 15px;
     }
 }
 
 @media screen and (max-width: 1039px) {
-    .header__top {
+    .header__top-raw {
         gap: 10px;
     }
 }
 
 @media screen and (max-width: 939px) {
-    .header__top {
+    .header__top-raw {
         padding-top: 15px;
     }
 }

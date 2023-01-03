@@ -1,11 +1,11 @@
-.button__burger {
+.button_type_burger {
     width: 40px;
     height: 40px;
 }
 
 
 @media screen and (min-width: 940px) {
-    .button__burger {
+    .button_type_burger {
         display: none;
     }
 }
