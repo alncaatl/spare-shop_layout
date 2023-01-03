@@ -1,9 +1,9 @@
-.categories__item_active {
+.header__categories-item_active {
     font-weight: bold;
     position: relative;
 }
 
-.categories__item_active::after {
+.header__categories-item_active::after {
     position: absolute;
     bottom: -16px;
     left: -10px;
@@ -17,7 +17,7 @@
 
 
 @media screen and (max-width: 939px) {
-    .categories__item_active::after {
+    .header__categories-item_active::after {
         bottom: -10px;
         left: 0;
         right: 0;

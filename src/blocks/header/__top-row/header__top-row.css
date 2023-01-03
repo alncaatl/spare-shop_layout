@@ -1,11 +1,10 @@
 @import url('../../button/button.css');
-@import url('../../button/_type/_burger/button_type_burger.css');
 @import url('../../logo/logo.css');
-@import url('../../main-menu/main-menu.css');
 @import url('../../user-nav/user-nav.css');
 
-@import url('../__address/header__address.css');
-@import url('../__menu/header__menu.css');
+@import url('../__burger-button/header__burger-button.css');
+@import url('../__logo/header__logo.css');
+@import url('../__menu-block/header__menu-block.css');
 
 .header__top-row {
     display: flex;

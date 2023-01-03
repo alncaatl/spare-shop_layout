@@ -1,6 +1,6 @@
-@import url('__item/categories__item.css');
+@import url('../__categories-item/header__categories-item.css');
 
-.categories {
+.header__categories-list {
     margin: 15px 0;
 
     display: flex;
@@ -10,7 +10,7 @@
 
 
 @media screen and (min-width: 940px) and (max-width: 1039px) {
-    .categories {
+    .header__categories-list {
         font-size: 18px;
     }
 }

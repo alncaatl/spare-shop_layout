@@ -1,5 +1,5 @@
 @media screen and (min-width: 940px) {
-    .logo_placed_header {
+    .header__logo {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 939px) {
-    .logo_placed_header {
+    .header__logo {
         width: 70px;
         height: 40px;
         margin-left: 20px;

@@ -1,4 +1,4 @@
-.main-menu {
+.header__main-menu {
     font-weight: bold;
 
     display: flex;
@@ -8,14 +8,14 @@
 }
 
 @media screen and (max-width: 1079px) {
-    .main-menu {
+    .header__main-menu {
         max-width: 370px;
         font-size: 18px;
     }
 }
 
 @media screen and (max-width: 939px) {
-    .main-menu {
+    .header__main-menu {
         display: none;
     }
 }
