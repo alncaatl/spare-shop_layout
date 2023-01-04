@@ -1,0 +1,13 @@
+@import url('../../input/input.css');
+
+@import url('../__form-row/footer__form-row.css');
+@import url('../__form-input/footer__form-input.css');
+@import url('../__form-button/footer__form-button.css');
+
+.footer__form {
+    max-width: 295px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}

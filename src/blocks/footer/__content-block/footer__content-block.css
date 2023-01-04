@@ -1,0 +1,7 @@
+@import url('../__section/footer__section.css');
+
+.footer__content-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}

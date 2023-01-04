@@ -1,0 +1,8 @@
+.footer__section {
+    max-width: 150px;
+    line-height: 20px;
+}
+
+.footer__section:last-of-type {
+    align-self: flex-end;
+}

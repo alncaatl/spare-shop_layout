@@ -2,7 +2,9 @@
 @import url('__cart-counter/user-nav__cart-counter.css');
 
 .user-nav {
-    margin-right: 12px;
+    list-style: none;
+    margin: 0;
+    padding: 0 12px 0 0;
 
     display: flex;
     justify-content: flex-end;

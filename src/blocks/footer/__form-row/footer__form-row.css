@@ -1,0 +1,7 @@
+.footer__form-row {
+    width: 100%;
+    height: 35px;
+    margin: 15px 0 0;
+
+    display: flex;
+}

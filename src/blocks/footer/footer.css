@@ -1,0 +1,14 @@
+@import url('../link/link.css');
+@import url('../list/list.css');
+@import url('../wrapper/wrapper.css');
+
+@import url('__container/footer__container.css');
+@import url('__content-block/footer__content-block.css');
+@import url('__copyright/footer__copyright.css');
+@import url('__form/footer__form.css');
+@import url('__section-header/footer__section-header.css');
+
+.footer {
+    background-color: #f4f4f6;
+    font-size: 14px;
+}
