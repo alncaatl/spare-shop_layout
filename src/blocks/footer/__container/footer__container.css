@@ -3,8 +3,29 @@
     padding-bottom: 40px;
 
     display: grid;
-    grid-template-columns: minmax(min-content, 295px) minmax(min-content, 720px);
+    grid-template-columns: 295px minmax(min-content, 720px);
     justify-content: space-between;
-    grid-column-gap: 20px;
+    grid-column-gap: 60px;
     grid-row-gap: 35px;
+}
+
+
+@media screen and (max-width: 1039px) {
+    .footer__container {
+        grid-column-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 939px) {
+    .footer__container {
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 659px) {
+    .footer__container {
+        padding-bottom: 30px;
+        grid-row-gap: 30px;
+    }
 }

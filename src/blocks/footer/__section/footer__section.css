@@ -1,8 +1,37 @@
+@import url('../__section-menu/footer__section-menu.css');
+
 .footer__section {
     max-width: 150px;
     line-height: 20px;
 }
 
-.footer__section:last-of-type {
-    align-self: flex-end;
+@media screen and (min-width: 660px) {
+    .footer__section:last-of-type {
+        align-self: flex-end;
+    }
+}
+
+
+@media screen and (max-width: 659px) {
+    .footer__section {
+        max-width: 100%;
+    }
+
+    .footer__section:not(:last-of-type)::before {
+        content: '';
+        display: block;
+        height: 1px;
+        background-color: #d6d6d6;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .footer__section:last-of-type::after {
+        content: '';
+        display: block;
+        height: 1px;
+        background-color: #d6d6d6;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
 }

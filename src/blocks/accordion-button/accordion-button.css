@@ -1,0 +1,15 @@
+@import url('__icon/accordion-button__icon.css');
+@import url('_opened/accordion-button_opened.css');
+
+.accordion-button {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+
+    stroke-width: 1.5;
+    stroke: currentColor;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

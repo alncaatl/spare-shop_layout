@@ -1,4 +1,7 @@
+@import url('../../button/button.css');
+
 .footer__form-button {
+    padding: 0 12px;
     background-color: #ff7931;
     color: #fff;
 
@@ -7,5 +10,12 @@
     letter-spacing: 0.12em;
     text-transform: uppercase;
 
-    flex-grow: 1;
+    flex: 1 1 120px;
+}
+
+
+@media screen and (max-width: 659px) {
+    .footer__form-button {
+        min-height: 35px;
+    }
 }

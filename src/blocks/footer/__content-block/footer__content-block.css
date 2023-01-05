@@ -4,4 +4,23 @@
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (min-width: 660px) and (max-width: 939px) {
+    .footer__content-block {
+        gap: 30px;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 659px) {
+    .footer__content-block {
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+
+        color: #7f7f7f;
+    }
 }

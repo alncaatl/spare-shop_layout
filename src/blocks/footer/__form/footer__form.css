@@ -1,13 +1,30 @@
-@import url('../../input/input.css');
-
+@import url('../__form-description/footer__form-description.css');
 @import url('../__form-row/footer__form-row.css');
 @import url('../__form-input/footer__form-input.css');
 @import url('../__form-button/footer__form-button.css');
 
 .footer__form {
-    max-width: 295px;
-
     display: flex;
     flex-direction: column;
-    justify-content: space-between
+    gap: 25px;
+}
+
+
+@media screen and (max-width: 939px) {
+    .footer__form {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 659px) {
+    .footer__form {
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .footer__form {
+        max-width: calc(100vw - 30px);
+    }
 }

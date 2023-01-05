@@ -3,3 +3,10 @@
     font-size: 14px;
     font-weight: bold;
 }
+
+
+@media screen and (max-width: 659px) {
+    .footer__section-header {
+        display: none;
+    }
+}
