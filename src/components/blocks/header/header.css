@@ -1,7 +1,7 @@
-@import url('../hidden/hidden.css');
-@import url('../link/link.css');
-@import url('../list/list.css');
-@import url('../wrapper/wrapper.css');
+@import url('../../templates/hidden/hidden.css');
+@import url('../../templates/link/link.css');
+@import url('../../templates/list/list.css');
+@import url('../../templates/wrapper/wrapper.css');
 
 @import url('__container/header__container.css');
 @import url('__top-row/header__top-row.css');

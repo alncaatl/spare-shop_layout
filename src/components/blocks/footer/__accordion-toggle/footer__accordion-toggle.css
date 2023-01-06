@@ -1,4 +1,4 @@
-@import url('../../accordion-button/accordion-button.css');
+@import url('../../../ui-elements/accordion-button/accordion-button.css');
 
 .footer__accordion-toggle {
     width: 100%;

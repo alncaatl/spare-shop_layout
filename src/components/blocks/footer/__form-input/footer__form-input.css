@@ -1,4 +1,4 @@
-@import url('../../input/input.css');
+@import url('../../../templates/input/input.css');
 
 .footer__form-input {
     flex: 4 2 auto;

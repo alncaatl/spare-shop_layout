@@ -1,6 +1,6 @@
-@import url('../link/link.css');
-@import url('../list/list.css');
-@import url('../wrapper/wrapper.css');
+@import url('../../templates/link/link.css');
+@import url('../../templates/list/list.css');
+@import url('../../templates/wrapper/wrapper.css');
 
 @import url('__accordion-toggle/footer__accordion-toggle.css');
 @import url('__container/footer__container.css');
