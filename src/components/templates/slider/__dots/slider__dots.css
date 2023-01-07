@@ -1,0 +1,7 @@
+@import url('../__dot/slider__dot.css');
+
+.slider__dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

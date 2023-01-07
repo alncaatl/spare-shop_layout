@@ -1,0 +1,11 @@
+@import url('_left/promo__slider-button_left.css');
+@import url('_right/promo__slider-button_right.css');
+
+.promo__slider-button {
+    background-image: url("data:image/svg+xml,%3Csvg width='15' height='10' viewBox='0 0 15 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.60986 4.41931L5.59239 8.54687M1.60986 4.41931L5.65494 0.514406M1.60986 4.41931L14.743 4.65257' stroke='%23fff'/%3E%3C/svg%3E%0A");
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.promo__slider-button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}

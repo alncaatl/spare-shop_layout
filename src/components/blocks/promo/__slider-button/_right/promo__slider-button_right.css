@@ -1,0 +1,4 @@
+.promo__slider-button_right {
+    right: 10px;
+    transform: translateY(-50%) rotate(180deg);
+}

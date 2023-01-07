@@ -1,0 +1,7 @@
+.promo__card {
+    height: 100%;
+
+    flex: 0 0 270px;
+
+    background-color: cornflowerblue;
+}

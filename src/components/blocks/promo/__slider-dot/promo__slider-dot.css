@@ -1,0 +1,9 @@
+@import url('_active/promo__slider-dot_active.css');
+
+.promo__slider-dot {
+    border: 1px solid #fff;
+    border-radius: 50%;
+
+    width: 10px;
+    height: 10px;
+}

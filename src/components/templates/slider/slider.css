@@ -1,0 +1,6 @@
+@import url('__button/slider__button.css');
+@import url('__dots/slider__dots.css');
+
+.slider {
+    position: relative;
+}

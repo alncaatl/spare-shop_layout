@@ -1,0 +1,16 @@
+@import url('../../../templates/slider/slider.css');
+@import url('../__slider-button/promo__slider-button.css');
+
+.promo__slider {
+    width: 100%;
+}
+
+.promo__slider::before {
+    content: "";
+    display: block;
+    background-image: url("../../../../images/promo-picture.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: calc(400 / 870 * 100%);
+}

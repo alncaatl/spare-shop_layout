@@ -1,0 +1,9 @@
+@import url('__slider/promo__slider.css');
+@import url('__slider-dots/promo__slider-dots.css');
+@import url('__card/promo__card.css');
+@import url('__container/promo__container.css');
+
+.promo {
+    height: 400px;
+    margin: 80px 0;
+}

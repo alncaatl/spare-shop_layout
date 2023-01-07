@@ -1,0 +1,10 @@
+@import url('../__slider-dot/promo__slider-dot.css');
+
+.promo__slider-dots {
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    gap: 10px;
+}
