@@ -2,6 +2,7 @@
 
 @import url('__attributes-section/card__attributes-section.css');
 @import url('__flag/card__flag.css');
+@import url('__image/card__image.css');
 @import url('__image-section/card__image-section.css');
 @import url('__not-available-text/card__not-available-text.css');
 @import url('__notify-button/card__notify-button.css');
@@ -14,6 +15,7 @@
 .card {
     width: 270px;
     height: 400px;
+    flex: 0 0 270px;
     border: 1px solid #e0e0e0;
 
     box-sizing: border-box;
