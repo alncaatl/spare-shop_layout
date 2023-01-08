@@ -1,0 +1,8 @@
+@import url('../../../templates/button/button.css');
+@import url('../__attribute/card__attribute.css');
+
+.card__attributes-section {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}

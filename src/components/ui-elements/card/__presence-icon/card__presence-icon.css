@@ -1,0 +1,14 @@
+.card__presence-icon {
+    background-image: url("data:image/svg+xml,%3Csvg width='22' height='26' viewBox='0 0 22 26' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.54545 6.53846C5.54545 6.53846 5.54545 1 11 1C16.4545 1 16.4545 6.53846 16.4545 6.53846M1 6.53846V25H21V6.53846H1Z' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    background-size: unset;
+
+    width: 60px;
+    height: 40px;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    background-color: #ff7931;
+    border-radius: 10px 0 0 0;
+}

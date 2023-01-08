@@ -1,0 +1,24 @@
+.card__flag {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 25px;
+    margin: 0;
+
+    transform: rotate(-90deg) translate(-27px, -28px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+    background: linear-gradient(91.1deg, #9710e9 1.17%, #fd8d43 99.31%);
+
+    z-index: 1;
+}

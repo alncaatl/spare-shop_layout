@@ -1,0 +1,14 @@
+@import url('../../../ui-elements/favorite-button/favorite-button.css');
+@import url('../../../ui-elements/favorite-button/_active/favorite-button_active.css');
+
+
+.card__attribute {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    width: 30px;
+    height: 30px;
+
+    z-index: 1;
+}
