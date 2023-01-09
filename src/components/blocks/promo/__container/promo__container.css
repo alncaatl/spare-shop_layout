@@ -4,3 +4,13 @@
     align-items: center;
     gap: 30px;
 }
+
+
+@media screen and (max-width: 939px) {
+    .promo__container {
+        flex-direction: column;
+        margin-left: -15px;
+        margin-right: -15px;
+        gap: 50px;
+    }
+}

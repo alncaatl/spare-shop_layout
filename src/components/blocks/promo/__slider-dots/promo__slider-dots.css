@@ -6,3 +6,17 @@
 
     gap: 10px;
 }
+
+
+@media screen and (min-width: 480px) and (max-width: 659px) {
+    .promo__slider-dots {
+        bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .promo__slider-dots {
+        bottom: 15px;
+        gap: 6px;
+    }
+}

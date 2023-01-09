@@ -10,6 +10,17 @@
 @import url('__timer-number/promo-card__timer-number.css');
 
 
+.promo-card {
+    flex: 0 0 270px;
+}
+
 .promo-card:hover {
     color: inherit;
+}
+
+
+@media screen and (max-width: 939px) {
+    .promo-card {
+        flex: 0 0 400px;
+    }
 }
