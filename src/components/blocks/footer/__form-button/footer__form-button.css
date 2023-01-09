@@ -1,5 +1,3 @@
-@import url('../../../templates/button/button.css');
-
 .footer__form-button {
     padding: 0 12px;
     background-color: #ff7931;
@@ -11,6 +9,10 @@
     text-transform: uppercase;
 
     flex: 1 1 120px;
+}
+
+.footer__form-button:hover {
+    background-color: #f76707;
 }
 
 

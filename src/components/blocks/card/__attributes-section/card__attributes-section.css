@@ -1,0 +1,5 @@
+.card__attributes-section {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}

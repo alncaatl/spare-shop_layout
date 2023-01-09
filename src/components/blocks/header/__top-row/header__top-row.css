@@ -1,11 +1,3 @@
-@import url('../../../templates/button/button.css');
-@import url('../../../ui-elements/logo/logo.css');
-@import url('../../user-nav/user-nav.css');
-
-@import url('../__burger-button/header__burger-button.css');
-@import url('../__logo/header__logo.css');
-@import url('../__menu-block/header__menu-block.css');
-
 .header__top-row {
     display: flex;
     flex-wrap: wrap;

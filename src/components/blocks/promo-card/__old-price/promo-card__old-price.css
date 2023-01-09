@@ -1,0 +1,23 @@
+.promo-card__old-price {
+    margin: 0;
+
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+
+    color: #a8a8a8;
+
+    background: linear-gradient(rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.25) 80%);
+    border-radius: 5px;
+}
+
+.promo-card__old-price:after {
+    content: '';
+    height: 1px;
+    width: 110%;
+    background-color: #a8a8a8;
+    position: absolute;
+    top: 45%;
+    left: -3%;
+    transform: rotate(-12deg);
+}

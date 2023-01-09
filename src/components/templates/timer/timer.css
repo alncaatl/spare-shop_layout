@@ -1,0 +1,14 @@
+@import url('__caption/timer__caption.css');
+@import url('__item/timer__item.css');
+@import url('__number/timer__number.css');
+
+.timer {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    gap: 50px;
+
+    font-size: inherit;
+    font-weight: inherit;
+}

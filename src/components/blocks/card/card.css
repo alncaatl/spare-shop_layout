@@ -1,6 +1,5 @@
-@import url('_category/card_category.css');
-
 @import url('__attributes-section/card__attributes-section.css');
+@import url('__attribute/card__attribute.css');
 @import url('__flag/card__flag.css');
 @import url('__image/card__image.css');
 @import url('__image-section/card__image-section.css');
@@ -10,7 +9,8 @@
 @import url('__presence-icon/card__presence-icon.css');
 @import url('__preview-button/card__preview-button.css');
 
-@import url('../../templates/hidden/hidden.css');
+@import url('_category/card_category.css');
+
 
 .card {
     width: 270px;

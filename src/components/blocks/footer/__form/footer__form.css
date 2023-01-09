@@ -1,12 +1,7 @@
-@import url('../__form-description/footer__form-description.css');
-@import url('../__form-row/footer__form-row.css');
-@import url('../__form-input/footer__form-input.css');
-@import url('../__form-button/footer__form-button.css');
-
 .footer__form {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 35px;
 }
 
 

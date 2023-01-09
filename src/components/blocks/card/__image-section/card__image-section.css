@@ -1,0 +1,19 @@
+.card__image-section {
+    margin: 0;
+    padding-bottom: 10px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    text-align: center;
+}
+
+.card__image-section figcaption {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

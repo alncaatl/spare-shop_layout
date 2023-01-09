@@ -1,13 +1,16 @@
-@import url('../../templates/link/link.css');
-@import url('../../templates/list/list.css');
-@import url('../../templates/wrapper/wrapper.css');
-
 @import url('__accordion-toggle/footer__accordion-toggle.css');
 @import url('__container/footer__container.css');
 @import url('__content-block/footer__content-block.css');
 @import url('__form/footer__form.css');
+@import url('__form-button/footer__form-button.css');
+@import url('__form-description/footer__form-description.css');
+@import url('__form-input/footer__form-input.css');
+@import url('__form-row/footer__form-row.css');
+@import url('__section/footer__section.css');
 @import url('__section-header/footer__section-header.css');
+@import url('__section-menu/footer__section-menu.css');
 @import url('__small-text/footer__small-text.css');
+
 
 .footer {
     background-color: #f4f4f6;

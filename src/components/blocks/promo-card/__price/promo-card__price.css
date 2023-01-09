@@ -1,0 +1,8 @@
+.promo-card__price {
+    margin: 0;
+    font-size: 30px;
+    line-height: 24px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    color: #ff7931;
+}

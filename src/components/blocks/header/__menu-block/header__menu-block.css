@@ -1,6 +1,3 @@
-@import url('../__main-menu/header__main-menu.css');
-@import url('../__address/header__address.css');
-
 .header__menu-block {
     display: flex;
     justify-content: space-between;

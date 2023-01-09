@@ -1,0 +1,14 @@
+.promo-card__image-section {
+    max-height: 240px;
+    padding: 0;
+}
+
+.promo-card__image-section figcaption {
+    font-size: 23px;
+    font-weight: bold;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

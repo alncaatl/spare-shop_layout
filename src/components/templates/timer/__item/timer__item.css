@@ -1,0 +1,12 @@
+.timer__item {
+    margin: 0;
+
+    position: relative;
+}
+
+.timer__item:not(:last-of-type)::after {
+    content: ":";
+    position: absolute;
+    top: 0;
+    right: -25px;
+}

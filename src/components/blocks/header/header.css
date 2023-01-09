@@ -1,11 +1,19 @@
-@import url('../../templates/hidden/hidden.css');
-@import url('../../templates/link/link.css');
-@import url('../../templates/list/list.css');
-@import url('../../templates/wrapper/wrapper.css');
-
 @import url('__container/header__container.css');
+
+/* top-row */
 @import url('__top-row/header__top-row.css');
+@import url('__address/header__address.css');
+@import url('__burger-button/header__burger-button.css');
+@import url('__logo/header__logo.css');
+@import url('__main-menu/header__main-menu.css');
+@import url('__menu-block/header__menu-block.css');
+@import url('../user-nav/user-nav.css');
+
+/* nav-row */
 @import url('__nav-row/header__nav-row.css');
+@import url('__categories-list/header__categories-list.css');
+@import url('__categories-item/header__categories-item.css');
+
 
 .header {
     width: 100%;

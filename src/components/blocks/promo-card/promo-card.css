@@ -1,0 +1,15 @@
+@import url('__countdown-box/promo-card__countdown-box.css');
+@import url('__countdown-text/promo-card__countdown-text.css');
+@import url('__image-section/promo-card__image-section.css');
+@import url('__old-price/promo-card__old-price.css');
+@import url('__price-section/promo-card__price-section.css');
+@import url('__price/promo-card__price.css');
+@import url('__timer/promo-card__timer.css');
+@import url('__timer-item/promo-card__timer-item.css');
+@import url('__timer-caption/promo-card__timer-caption.css');
+@import url('__timer-number/promo-card__timer-number.css');
+
+
+.promo-card:hover {
+    color: inherit;
+}
