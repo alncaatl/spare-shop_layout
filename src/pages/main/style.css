@@ -2,6 +2,7 @@
 
 /* Templates */
 @import url('../../components/templates/button/button.css');
+@import url('../../components/templates/button/_orange/button_orange.css');
 @import url('../../components/templates/input/input.css');
 @import url('../../components/templates/link/link.css');
 @import url('../../components/templates/list/list.css');

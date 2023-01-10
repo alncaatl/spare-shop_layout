@@ -1,0 +1,12 @@
+.button_orange {
+    background-color: #ff7931;
+    color: #fff;
+
+    font-weight: bold;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.button_orange:hover {
+    background-color: #f76707;
+}
