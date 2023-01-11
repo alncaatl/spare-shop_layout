@@ -1,0 +1,12 @@
+.card {
+    box-sizing: border-box;
+    padding: 20px 20px 25px 20px;
+
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+}
+
+.card:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    color: #ff7931;
+}

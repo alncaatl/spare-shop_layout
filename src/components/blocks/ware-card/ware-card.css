@@ -1,0 +1,38 @@
+@import url('__attributes-section/ware-card__attributes-section.css');
+@import url('__attribute/ware-card__attribute.css');
+@import url('__flag/ware-card__flag.css');
+@import url('__image/ware-card__image.css');
+@import url('__image-section/ware-card__image-section.css');
+@import url('__not-available-text/ware-card__not-available-text.css');
+@import url('__notify-button/ware-card__notify-button.css');
+@import url('__offer/ware-card__offer.css');
+@import url('__presence-icon/ware-card__presence-icon.css');
+@import url('__preview-button/ware-card__preview-button.css');
+
+@import url('_category/ware-card_category.css');
+
+
+.ware-card {
+    width: 270px;
+    height: 400px;
+    flex: 0 0 270px;
+
+    display: grid;
+    grid-template: min-content 1fr min-content / 1fr;
+    grid-auto-flow: dense;
+
+    position: relative;
+}
+
+.ware-card:hover {
+    color: #ff7931;
+}
+
+.ware-card:hover .ware-card__not-available-text {
+    color: #48494d;
+}
+
+.ware-card:hover .ware-card__preview-button {
+    display: block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

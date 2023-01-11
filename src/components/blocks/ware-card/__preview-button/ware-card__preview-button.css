@@ -1,4 +1,4 @@
-.card__preview-button {
+.ware-card__preview-button {
     width: 230px;
     height: 60px;
 
@@ -16,6 +16,6 @@
     display: none;
 }
 
-.card__preview-button:hover {
+.ware-card__preview-button:hover {
     background-color: rgba(255, 255, 255, 0.8);
 }
