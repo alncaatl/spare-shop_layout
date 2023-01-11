@@ -11,7 +11,7 @@
 }
 
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 659px) {
     .promo__slider-button {
         display: none;
     }

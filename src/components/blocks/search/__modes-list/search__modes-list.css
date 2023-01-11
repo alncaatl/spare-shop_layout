@@ -1,7 +1,8 @@
-.search__modes-list {
-    gap: 30px;
+@media screen and (min-width: 1040px) {
+    .search__modes-list {
+        gap: 30px;
+    }
 }
-
 
 @media screen and (min-width: 940px) {
     .search__modes-list {
