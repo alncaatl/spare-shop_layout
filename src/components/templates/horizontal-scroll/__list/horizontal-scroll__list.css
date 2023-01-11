@@ -1,0 +1,7 @@
+.horizontal-scroll__list {
+    margin: 15px 0;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}

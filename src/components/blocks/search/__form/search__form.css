@@ -1,0 +1,11 @@
+.search__form {
+    width: 100%;
+    min-height: 50px;
+    border-radius: 3px;
+
+    display: flex;
+    justify-content: stretch;
+    flex-wrap: wrap;
+
+    position: relative;
+}

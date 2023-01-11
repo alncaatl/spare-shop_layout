@@ -1,0 +1,18 @@
+.search__form-input {
+    width: 100%;
+    padding: 0 165px 0 20px;
+
+    font-size: 16px;
+    color: #656464;
+    background-color: #f0f0f4;
+
+    border-radius: 3px;
+}
+
+
+@media (max-width: 659px) {
+    .search__form-input {
+        padding-left: 10px;
+        padding-right: 60px;
+    }
+}

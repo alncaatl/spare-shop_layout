@@ -94,30 +94,30 @@
         </ul>
       </div>
 
-      <nav class="header__nav-row">
-        <ul class="list header__categories-list">
-          <li class="header__categories-item">
+      <nav class="horizontal-scroll header__nav-row">
+        <ul class="list horizontal-scroll__list">
+          <li class="horizontal-scroll__item">
             <a class="link" href="#">Каталог запчастей</a>
           </li>
-          <li class="header__categories-item">
+          <li class="horizontal-scroll__item">
             <a class="link" href="#">Каталог ТО</a>
           </li>
-          <li class="header__categories-item header__categories-item_active">
+          <li class="horizontal-scroll__item horizontal-scroll__item_active">
             <a class="link" href="#">Шины</a>
           </li>
-          <li class="header__categories-item">
+          <li class="horizontal-scroll__item">
             <a class="link" href="#">Диски</a>
           </li>
-          <li class="header__categories-item">
+          <li class="horizontal-scroll__item">
             <a class="link" href="#">Аккумуляторы</a>
           </li>
-          <li class="header__categories-item">
+          <li class="horizontal-scroll__item">
             <a class="link" href="#">Автомасла</a>
           </li>
-          <li class="header__categories-item">
+          <li class="horizontal-scroll__item">
             <a class="link" href="#">Автолампы</a>
           </li>
-          <li class="header__categories-item">
+          <li class="horizontal-scroll__item">
             <a class="link" href="#">Аксессуары</a>
           </li>
         </ul>
@@ -128,109 +128,155 @@
 
   <main>
 
-    <div class="promo">
-      <div class="wrapper promo__container">
+<!--    <section class="promo">-->
+<!--      <div class="wrapper promo__container">-->
 
-        <div class="slider promo__slider">
-          <button class="button slider__button promo__slider-button promo__slider-button_left"></button>
-          <button class="button slider__button promo__slider-button promo__slider-button_right"></button>
+<!--        <div class="slider promo__slider">-->
+<!--          <button class="button slider__button promo__slider-button promo__slider-button_left"></button>-->
+<!--          <button class="button slider__button promo__slider-button promo__slider-button_right"></button>-->
 
-          <div class="slider__dots promo__slider-dots">
-            <button class="button slider__dot promo__slider-dot promo__slider-dot_active">&nbsp;</button>
-            <button class="button slider__dot promo__slider-dot">&nbsp;</button>
-            <button class="button slider__dot promo__slider-dot">&nbsp;</button>
-            <button class="button slider__dot promo__slider-dot">&nbsp;</button>
-            <button class="button slider__dot promo__slider-dot">&nbsp;</button>
-            <button class="button slider__dot promo__slider-dot">&nbsp;</button>
-          </div>
+<!--          <div class="slider__dots promo__slider-dots">-->
+<!--            <button class="button slider__dot promo__slider-dot promo__slider-dot_active">&nbsp;</button>-->
+<!--            <button class="button slider__dot promo__slider-dot">&nbsp;</button>-->
+<!--            <button class="button slider__dot promo__slider-dot">&nbsp;</button>-->
+<!--            <button class="button slider__dot promo__slider-dot">&nbsp;</button>-->
+<!--            <button class="button slider__dot promo__slider-dot">&nbsp;</button>-->
+<!--            <button class="button slider__dot promo__slider-dot">&nbsp;</button>-->
+<!--          </div>-->
+<!--        </div>-->
+
+<!--        <a class="card link promo-card" href="#">-->
+<!--          <p class="card__flag">Акция</p>-->
+
+<!--          <div class="card__attributes-section promo-card__price-section">-->
+<!--            <p class="promo-card__price">200 ₽</p>-->
+<!--            <p class="promo-card__old-price">500 ₽</p>-->
+<!--          </div>-->
+
+<!--          <figure class="card__image-section promo-card__image-section">-->
+<!--            <picture>-->
+<!--              <source srcset="" type="image/webp">-->
+<!--              <img class="card__image"-->
+<!--                   src="../../images/lightbulb.png"-->
+<!--                   alt="Изображение товара"-->
+<!--              >-->
+<!--            </picture>-->
+<!--            <figcaption>Лампочка mini самая лучшая просто чудесная</figcaption>-->
+<!--          </figure>-->
+
+<!--          <div class="promo-card__countdown-box">-->
+<!--            <p class="promo-card__countdown-text">До конца акции осталось:</p>-->
+<!--            <div class="timer promo-card__timer">-->
+<!--              <div class="timer__item promo-card__timer-item">-->
+<!--                <p class="timer__number promo-card__timer-number">00</p>-->
+<!--                <p class="timer__caption promo-card__timer-caption">часов</p>-->
+<!--              </div>-->
+<!--              <div class="timer__item promo-card__timer-item">-->
+<!--                <p class="timer__number promo-card__timer-number">20</p>-->
+<!--                <p class="timer__caption promo-card__timer-caption">минут</p>-->
+<!--              </div>-->
+<!--              <div class="timer__item promo-card__timer-item">-->
+<!--                <p class="timer__number promo-card__timer-number">00</p>-->
+<!--                <p class="timer__caption promo-card__timer-caption">секунд</p>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </a>-->
+
+<!--      </div>-->
+<!--    </section>-->
+
+    <section class="search">
+      <div class="wrapper search__container">
+
+        <div class="horizontal-scroll">
+          <ul class="list horizontal-scroll__list search__modes-list">
+            <li class="horizontal-scroll__item search__modes-item">
+              <a class="link"
+                 href="#"
+              >Поиск по Vin</a>
+            </li>
+            <li class="horizontal-scroll__item search__modes-item search__modes-item_active">
+              <a class="link"
+                 href="#"
+              >Поиск по марке</a>
+            </li>
+            <li class="horizontal-scroll__item search__modes-item">
+              <a class="link"
+                 href="#"
+              >Поиск по названию товара</a>
+            </li>
+            <li class="horizontal-scroll__item search__modes-item">
+              <a class="link"
+                 href="#"
+              >Поиск по артикулу</a>
+            </li>
+          </ul>
         </div>
 
-        <a class="card link promo-card" href="#">
-          <p class="card__flag">Акция</p>
-
-          <div class="card__attributes-section promo-card__price-section">
-            <p class="promo-card__price">200 ₽</p>
-            <p class="promo-card__old-price">500 ₽</p>
-          </div>
-
-          <figure class="card__image-section promo-card__image-section">
-            <picture>
-              <source srcset="" type="image/webp">
-              <img class="card__image"
-                   src="../../images/lightbulb.png"
-                   alt="Изображение товара"
-              >
-            </picture>
-            <figcaption>Лампочка mini самая лучшая просто чудесная</figcaption>
-          </figure>
-
-          <div class="promo-card__countdown-box">
-            <p class="promo-card__countdown-text">До конца акции осталось:</p>
-            <div class="timer promo-card__timer">
-              <div class="timer__item promo-card__timer-item">
-                <p class="timer__number promo-card__timer-number">00</p>
-                <p class="timer__caption promo-card__timer-caption">часов</p>
-              </div>
-              <div class="timer__item promo-card__timer-item">
-                <p class="timer__number promo-card__timer-number">20</p>
-                <p class="timer__caption promo-card__timer-caption">минут</p>
-              </div>
-              <div class="timer__item promo-card__timer-item">
-                <p class="timer__number promo-card__timer-number">00</p>
-                <p class="timer__caption promo-card__timer-caption">секунд</p>
-              </div>
-            </div>
-          </div>
-        </a>
-
-      </div>
-    </div>
-
-
-    <a class="card link" href="#">
-
-      <p class="card__flag">Sale</p>
-
-      <div class="card__attributes-section">
-        <button
-          class="button favorite-button card__attribute"
-          type="button"
-          title="Добавить в избранное"
-        ></button>
-        <span class="card__attribute snowflake-icon"></span>
-      </div>
-
-      <figure class="card__image-section">
-        <picture>
-          <source srcset="" type="image/webp">
-          <img class="card__image"
-               src="../../images/tyre_winter.png"
-               alt="Изображение товара"
+        <div class="search__form form-row">
+          <label for="search" class="hidden">Введите поисковый запрос</label>
+          <input id="search"
+                 class="input search__form-input"
+                 type="search"
+                 placeholder="Введите марку автомобиля"
+                 required
           >
-        </picture>
-        <figcaption>Шина 205/80 R16 104Q Misha RF Power Grum Шина 205/80 R16 104Q Misha RF Power Grum</figcaption>
-      </figure>
-
-      <div class="card__offer">
-        <p class="card__offer  card__offer_price">11 680 ₽</p>
-        <div class="card__offer hidden card__offer_not-available">
-          <p class="card__not-available-text">Нет в наличии</p>
-          <button class="button card__notify-button"
-                  type="button"
-          >Сообщить о поступлении</button>
+          <button class="button button_orange search__form-button"
+                  type="submit"
+          >
+            <span class="search__button-text">Искать</span>
+          </button>
         </div>
+
       </div>
+    </section>
 
-      <span class=" card__presence-icon card__attribute"></span>
 
-      <button
-        class="button card__preview-button"
-        type="button"
-      >
-        Быстрый просмотр
-      </button>
+<!--    <a class="card link" href="#">-->
 
-    </a>
+<!--      <p class="card__flag">Sale</p>-->
+
+<!--      <div class="card__attributes-section">-->
+<!--        <button-->
+<!--          class="button favorite-button card__attribute"-->
+<!--          type="button"-->
+<!--          title="Добавить в избранное"-->
+<!--        ></button>-->
+<!--        <span class="card__attribute snowflake-icon"></span>-->
+<!--      </div>-->
+
+<!--      <figure class="card__image-section">-->
+<!--        <picture>-->
+<!--          <source srcset="" type="image/webp">-->
+<!--          <img class="card__image"-->
+<!--               src="../../images/tyre_winter.png"-->
+<!--               alt="Изображение товара"-->
+<!--          >-->
+<!--        </picture>-->
+<!--        <figcaption>Шина 205/80 R16 104Q Misha RF Power Grum Шина 205/80 R16 104Q Misha RF Power Grum</figcaption>-->
+<!--      </figure>-->
+
+<!--      <div class="card__offer">-->
+<!--        <p class="card__offer  card__offer_price">11 680 ₽</p>-->
+<!--        <div class="card__offer hidden card__offer_not-available">-->
+<!--          <p class="card__not-available-text">Нет в наличии</p>-->
+<!--          <button class="button card__notify-button"-->
+<!--                  type="button"-->
+<!--          >Сообщить о поступлении</button>-->
+<!--        </div>-->
+<!--      </div>-->
+
+<!--      <span class=" card__presence-icon card__attribute"></span>-->
+
+<!--      <button-->
+<!--        class="button card__preview-button"-->
+<!--        type="button"-->
+<!--      >-->
+<!--        Быстрый просмотр-->
+<!--      </button>-->
+
+<!--    </a>-->
 
 
 
@@ -243,7 +289,7 @@
         <p class="footer__form-description">
           Подпишитесь на нашу рассылку и узнавайте об акциях быстрее
         </p>
-        <div class="footer__form-row">
+        <div class="form-row footer__form-row">
           <label for="email" class="hidden">Введите ваш e-mail</label>
           <input id="email"
                  class="input footer__form-input"

@@ -6,9 +6,11 @@
 @import url('../../components/templates/input/input.css');
 @import url('../../components/templates/link/link.css');
 @import url('../../components/templates/list/list.css');
+@import url('../../components/templates/wrapper/wrapper.css');
+/* ___ */
+@import url('../../components/templates/horizontal-scroll/horizontal-scroll.css');
 @import url('../../components/templates/slider/slider.css');
 @import url('../../components/templates/timer/timer.css');
-@import url('../../components/templates/wrapper/wrapper.css');
 
 /* UI elements */
 @import url('../../components/ui-elements/accordion-button/accordion-button.css');
@@ -18,12 +20,13 @@
 @import url('../../components/ui-elements/logo/logo.css');
 
 /* Blocks */
-@import url('../../components/blocks/root/root.css');
-@import url('../../components/blocks/header/header.css');
 @import url('../../components/blocks/card/card.css');
+@import url('../../components/blocks/footer/footer.css');
+@import url('../../components/blocks/header/header.css');
 @import url('../../components/blocks/promo/promo.css');
 @import url('../../components/blocks/promo-card/promo-card.css');
-@import url('../../components/blocks/footer/footer.css');
+@import url('../../components/blocks/root/root.css');
+@import url('../../components/blocks/search/search.css');
 
 /* visually hidden */
 @import url('../../components/templates/hidden/hidden.css');

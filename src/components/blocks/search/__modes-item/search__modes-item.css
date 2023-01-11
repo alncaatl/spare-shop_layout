@@ -1,0 +1,15 @@
+@import url('_active/search__modes-item_active.css');
+
+.search__modes-item {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+
+@media screen and (min-width: 940px) {
+    .search__modes-item {
+        padding: 0 20px;
+    }
+}

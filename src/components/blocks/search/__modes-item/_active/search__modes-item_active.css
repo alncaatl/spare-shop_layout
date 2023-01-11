@@ -1,0 +1,47 @@
+.search__modes-item_active {
+    font-weight: bold;
+    background-color: #f0f0f4;
+    color: #48494d;
+
+    position: relative;
+}
+
+.search__modes-item_active .link {
+    cursor: default;
+    color: inherit;
+    pointer-events: none;
+}
+
+
+@media screen and (max-width: 939px) {
+    .search__modes-item_active {
+        background-color: unset;
+    }
+
+    .search__modes-item_active::after {
+        position: absolute;
+        content: '';
+        display: block;
+        height: 3px;
+        background-color: #ff7931;
+    }
+
+    .search__modes-item_active:not(:first-of-type)::after,
+    .search__modes-item_active:not(:last-of-type)::after{
+        bottom: -8px;
+        left: 0;
+        right: 0;
+    }
+
+    .search__modes-item_active:first-of-type::after {
+        bottom: -8px;
+        left: 15px;
+        right: 0;
+    }
+
+    .search__modes-item_active:last-of-type::after {
+        bottom: -8px;
+        left: 0;
+        right: 15px;
+    }
+}

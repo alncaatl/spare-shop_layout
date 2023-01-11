@@ -1,0 +1,11 @@
+.search__container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media screen and (max-width: 939px) {
+    .search__container {
+        gap: 5px;
+    }
+}

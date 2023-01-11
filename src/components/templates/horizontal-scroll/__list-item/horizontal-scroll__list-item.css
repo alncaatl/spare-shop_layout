@@ -1,0 +1,15 @@
+@import url('_active/horizontal-scroll__item_active.css');
+
+.horizontal-scroll__item {
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 939px) {
+    .horizontal-scroll__item:first-of-type {
+        padding-left: 15px;
+    }
+
+    .horizontal-scroll__item:last-of-type {
+        padding-right: 15px;
+    }
+}

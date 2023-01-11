@@ -1,0 +1,5 @@
+@media screen and (max-width: 659px) {
+    .search__button-text {
+        display: none;
+    }
+}
