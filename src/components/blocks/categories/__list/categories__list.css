@@ -1,0 +1,13 @@
+.categories__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    gap: 30px;
+}
+
+
+@media screen and (max-width: 659px) {
+    .categories__list {
+        grid-template-columns: minmax(250px, 420px);
+        justify-content: center;
+    }
+}

@@ -28,6 +28,7 @@
 @import url('../../components/blocks/promo-card/promo-card.css');
 @import url('../../components/blocks/root/root.css');
 @import url('../../components/blocks/search/search.css');
+@import url('../../components/blocks/categories/categories.css');
 
 /* visually hidden */
 @import url('../../components/templates/hidden/hidden.css');

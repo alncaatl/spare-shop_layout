@@ -1,0 +1,38 @@
+@import url('_accessories/categories__icon_accessories.css');
+@import url('_car-chemicals/categories__icon_car-chemicals.css');
+@import url('_car-electronics/categories__icon_car-electronics.css');
+@import url('_spare-parts/categories__icon_spare-parts.css');
+@import url('_tools/categories__icon_tools.css');
+@import url('_tyres/categories__icon_tyres.css');
+
+.categories__icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    position: absolute;
+    bottom: 15px;
+    right: 25px;
+    background-color: #ff7931;
+}
+
+.categories__icon::after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width: 1039px) {
+    .categories__icon {
+        transform: scale(0.6);
+
+        bottom: -3px;
+        right: 0;
+    }
+}

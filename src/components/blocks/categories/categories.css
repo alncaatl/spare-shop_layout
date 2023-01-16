@@ -1,0 +1,10 @@
+@import url('__container-link/categories__container-link.css');
+@import url('__go-to/categories__go-to.css');
+@import url('__icon/categories__icon.css');
+@import url('__list/categories__list.css');
+@import url('__list-item/categories__list-item.css');
+@import url('__name/categories__name.css');
+
+.categories {
+    margin: 80px 0;
+}
