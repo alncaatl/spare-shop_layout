@@ -95,14 +95,14 @@
       </div>
 
       <nav class="horizontal-scroll header__nav-row">
-        <ul class="list horizontal-scroll__list">
+        <ul class="list horizontal-scroll__list header__nav-list">
           <li class="horizontal-scroll__item">
             <a class="link" href="#">Каталог запчастей</a>
           </li>
           <li class="horizontal-scroll__item">
             <a class="link" href="#">Каталог ТО</a>
           </li>
-          <li class="horizontal-scroll__item horizontal-scroll__item_active">
+          <li class="horizontal-scroll__item horizontal-scroll__item_active horizontal-scroll__item_active_placed_header">
             <a class="link" href="#">Шины</a>
           </li>
           <li class="horizontal-scroll__item">
@@ -126,7 +126,7 @@
     </div>
   </header>
 
-  <main>
+  <main class="main">
 
     <section class="promo">
       <div class="wrapper promo__container">
@@ -284,13 +284,13 @@
     </section>
 
 
-    <section class="popular">
-      <div class="wrapper">
+    <section class="offers">
+      <div class="wrapper offers__container">
 
-        <h2 class="section-header"></h2>
+        <h2 class="section-header">Популярные товары</h2>
         <div class="horizontal-scroll">
-          <ul class="list horizontal-scroll__list">
-            <li class="horizontal-scroll__item">
+          <ul class="list horizontal-scroll__list offers__categories-list">
+            <li class="horizontal-scroll__item horizontal-scroll__item_active">
               <a class="link" href="#">запчасти</a>
             </li>
             <li class="horizontal-scroll__item">
@@ -311,59 +311,415 @@
           </ul>
         </div>
 
-        <div class="card-grid"></div>
+        <div class="slider card-slider offers__card-slider">
 
-        <button class="button button_orange" type="button">смотреть еще</button>
+          <button class="button slider__button card-slider__button card-slider__button_left"></button>
+          <button class="button slider__button card-slider__button card-slider__button_right"></button>
+
+          <a class="card ware-card link" href="#">
+
+            <p class="ware-card__flag">Sale</p>
+
+            <div class="ware-card__attributes-section">
+              <button
+                class="button favorite-button card__attribute"
+                type="button"
+                title="Добавить в избранное"
+              ></button>
+              <span class="card__attribute snowflake-icon"></span>
+            </div>
+
+            <figure class="ware-card__image-section">
+              <picture>
+                <source srcset="" type="image/webp">
+                <img class="ware-card__image"
+                     src="../../images/tyre_winter.png"
+                     alt="Изображение товара"
+                >
+              </picture>
+              <figcaption>Шина 205/80 R16 104Q Misha RF Power Grum Шина 205/80 R16 104Q Misha RF Power Grum</figcaption>
+            </figure>
+
+            <div class="ware-card__offer">
+              <p class="ware-card__offer  ware-card__offer_price">11 680 ₽</p>
+              <div class="ware-card__offer hidden ware-card__offer_not-available">
+                <p class="ware-card__not-available-text">Нет в наличии</p>
+                <button class="button ware-card__notify-button"
+                        type="button"
+                >Сообщить о поступлении</button>
+              </div>
+            </div>
+
+            <span class=" ware-card__presence-icon card__attribute"></span>
+
+            <button
+              class="button ware-card__preview-button"
+              type="button"
+            >
+              Быстрый просмотр
+            </button>
+
+          </a>
+
+          <a class="card ware-card link" href="#">
+
+            <p class="ware-card__flag">Sale</p>
+
+            <div class="ware-card__attributes-section">
+              <button
+                class="button favorite-button card__attribute"
+                type="button"
+                title="Добавить в избранное"
+              ></button>
+              <span class="card__attribute snowflake-icon"></span>
+            </div>
+
+            <figure class="ware-card__image-section">
+              <picture>
+                <source srcset="" type="image/webp">
+                <img class="ware-card__image"
+                     src="../../images/tyre_winter.png"
+                     alt="Изображение товара"
+                >
+              </picture>
+              <figcaption>Шина 205/80 R16 104Q Misha RF Power Grum Шина 205/80 R16 104Q Misha RF Power Grum</figcaption>
+            </figure>
+
+            <div class="ware-card__offer">
+              <p class="ware-card__offer  ware-card__offer_price">11 680 ₽</p>
+              <div class="ware-card__offer hidden ware-card__offer_not-available">
+                <p class="ware-card__not-available-text">Нет в наличии</p>
+                <button class="button ware-card__notify-button"
+                        type="button"
+                >Сообщить о поступлении</button>
+              </div>
+            </div>
+
+            <span class=" ware-card__presence-icon card__attribute"></span>
+
+            <button
+              class="button ware-card__preview-button"
+              type="button"
+            >
+              Быстрый просмотр
+            </button>
+
+          </a>
+
+          <a class="card ware-card link" href="#">
+
+            <p class="ware-card__flag">Sale</p>
+
+            <div class="ware-card__attributes-section">
+              <button
+                class="button favorite-button card__attribute"
+                type="button"
+                title="Добавить в избранное"
+              ></button>
+              <span class="card__attribute snowflake-icon"></span>
+            </div>
+
+            <figure class="ware-card__image-section">
+              <picture>
+                <source srcset="" type="image/webp">
+                <img class="ware-card__image"
+                     src="../../images/tyre_winter.png"
+                     alt="Изображение товара"
+                >
+              </picture>
+              <figcaption>Шина 205/80 R16 104Q Misha RF Power Grum Шина 205/80 R16 104Q Misha RF Power Grum</figcaption>
+            </figure>
+
+            <div class="ware-card__offer">
+              <p class="ware-card__offer  ware-card__offer_price">11 680 ₽</p>
+              <div class="ware-card__offer hidden ware-card__offer_not-available">
+                <p class="ware-card__not-available-text">Нет в наличии</p>
+                <button class="button ware-card__notify-button"
+                        type="button"
+                >Сообщить о поступлении</button>
+              </div>
+            </div>
+
+            <span class=" ware-card__presence-icon card__attribute"></span>
+
+            <button
+              class="button ware-card__preview-button"
+              type="button"
+            >
+              Быстрый просмотр
+            </button>
+
+          </a>
+
+          <a class="card ware-card link" href="#">
+
+            <p class="ware-card__flag">Sale</p>
+
+            <div class="ware-card__attributes-section">
+              <button
+                class="button favorite-button card__attribute"
+                type="button"
+                title="Добавить в избранное"
+              ></button>
+              <span class="card__attribute snowflake-icon"></span>
+            </div>
+
+            <figure class="ware-card__image-section">
+              <picture>
+                <source srcset="" type="image/webp">
+                <img class="ware-card__image"
+                     src="../../images/tyre_winter.png"
+                     alt="Изображение товара"
+                >
+              </picture>
+              <figcaption>Шина 205/80 R16 104Q Misha RF Power Grum Шина 205/80 R16 104Q Misha RF Power Grum</figcaption>
+            </figure>
+
+            <div class="ware-card__offer">
+              <p class="ware-card__offer  ware-card__offer_price">11 680 ₽</p>
+              <div class="ware-card__offer hidden ware-card__offer_not-available">
+                <p class="ware-card__not-available-text">Нет в наличии</p>
+                <button class="button ware-card__notify-button"
+                        type="button"
+                >Сообщить о поступлении</button>
+              </div>
+            </div>
+
+            <span class=" ware-card__presence-icon card__attribute"></span>
+
+            <button
+              class="button ware-card__preview-button"
+              type="button"
+            >
+              Быстрый просмотр
+            </button>
+
+          </a>
+
+        </div>
+
+        <button class="button button_grey offers__more-button" type="button">смотреть еще</button>
 
       </div>
     </section>
 
 
-    <a class="card ware-card link" href="#">
+    <section class="offers">
+      <div class="wrapper offers__container">
 
-      <p class="ware-card__flag">Sale</p>
-
-      <div class="ware-card__attributes-section">
-        <button
-          class="button favorite-button card__attribute"
-          type="button"
-          title="Добавить в избранное"
-        ></button>
-        <span class="card__attribute snowflake-icon"></span>
-      </div>
-
-      <figure class="ware-card__image-section">
-        <picture>
-          <source srcset="" type="image/webp">
-          <img class="ware-card__image"
-               src="../../images/tyre_winter.png"
-               alt="Изображение товара"
-          >
-        </picture>
-        <figcaption>Шина 205/80 R16 104Q Misha RF Power Grum Шина 205/80 R16 104Q Misha RF Power Grum</figcaption>
-      </figure>
-
-      <div class="ware-card__offer">
-        <p class="ware-card__offer  ware-card__offer_price">11 680 ₽</p>
-        <div class="ware-card__offer hidden ware-card__offer_not-available">
-          <p class="ware-card__not-available-text">Нет в наличии</p>
-          <button class="button ware-card__notify-button"
-                  type="button"
-          >Сообщить о поступлении</button>
+        <h2 class="section-header">С этим товаром покупают</h2>
+        <div class="horizontal-scroll">
+          <ul class="list horizontal-scroll__list offers__categories-list">
+            <li class="horizontal-scroll__item horizontal-scroll__item_active">
+              <a class="link" href="#">запчасти</a>
+            </li>
+            <li class="horizontal-scroll__item">
+              <a class="link" href="#">автохимия</a>
+            </li>
+            <li class="horizontal-scroll__item">
+              <a class="link" href="#">шины и диски</a>
+            </li>
+            <li class="horizontal-scroll__item">
+              <a class="link" href="#">автоэлектроника</a>
+            </li>
+            <li class="horizontal-scroll__item">
+              <a class="link" href="#">инструменты</a>
+            </li>
+            <li class="horizontal-scroll__item">
+              <a class="link" href="#">аксессуары и другое</a>
+            </li>
+          </ul>
         </div>
+
+        <div class="slider card-slider offers__card-slider">
+
+          <button class="button slider__button card-slider__button card-slider__button_left"></button>
+          <button class="button slider__button card-slider__button card-slider__button_right"></button>
+
+          <a class="card ware-card link" href="#">
+
+            <p class="ware-card__flag">Sale</p>
+
+            <div class="ware-card__attributes-section">
+              <button
+                class="button favorite-button card__attribute"
+                type="button"
+                title="Добавить в избранное"
+              ></button>
+              <span class="card__attribute snowflake-icon"></span>
+            </div>
+
+            <figure class="ware-card__image-section">
+              <picture>
+                <source srcset="" type="image/webp">
+                <img class="ware-card__image"
+                     src="../../images/tyre_winter.png"
+                     alt="Изображение товара"
+                >
+              </picture>
+              <figcaption>Шина 205/80 R16 104Q Misha RF Power Grum Шина 205/80 R16 104Q Misha RF Power Grum</figcaption>
+            </figure>
+
+            <div class="ware-card__offer">
+              <p class="ware-card__offer  ware-card__offer_price">11 680 ₽</p>
+              <div class="ware-card__offer hidden ware-card__offer_not-available">
+                <p class="ware-card__not-available-text">Нет в наличии</p>
+                <button class="button ware-card__notify-button"
+                        type="button"
+                >Сообщить о поступлении</button>
+              </div>
+            </div>
+
+            <span class=" ware-card__presence-icon card__attribute"></span>
+
+            <button
+              class="button ware-card__preview-button"
+              type="button"
+            >
+              Быстрый просмотр
+            </button>
+
+          </a>
+
+          <a class="card ware-card link" href="#">
+
+            <p class="ware-card__flag">Sale</p>
+
+            <div class="ware-card__attributes-section">
+              <button
+                class="button favorite-button card__attribute"
+                type="button"
+                title="Добавить в избранное"
+              ></button>
+              <span class="card__attribute snowflake-icon"></span>
+            </div>
+
+            <figure class="ware-card__image-section">
+              <picture>
+                <source srcset="" type="image/webp">
+                <img class="ware-card__image"
+                     src="../../images/tyre_winter.png"
+                     alt="Изображение товара"
+                >
+              </picture>
+              <figcaption>Шина 205/80 R16 104Q Misha RF Power Grum Шина 205/80 R16 104Q Misha RF Power Grum</figcaption>
+            </figure>
+
+            <div class="ware-card__offer">
+              <p class="ware-card__offer  ware-card__offer_price">11 680 ₽</p>
+              <div class="ware-card__offer hidden ware-card__offer_not-available">
+                <p class="ware-card__not-available-text">Нет в наличии</p>
+                <button class="button ware-card__notify-button"
+                        type="button"
+                >Сообщить о поступлении</button>
+              </div>
+            </div>
+
+            <span class=" ware-card__presence-icon card__attribute"></span>
+
+            <button
+              class="button ware-card__preview-button"
+              type="button"
+            >
+              Быстрый просмотр
+            </button>
+
+          </a>
+
+          <a class="card ware-card link" href="#">
+
+            <p class="ware-card__flag">Sale</p>
+
+            <div class="ware-card__attributes-section">
+              <button
+                class="button favorite-button card__attribute"
+                type="button"
+                title="Добавить в избранное"
+              ></button>
+              <span class="card__attribute snowflake-icon"></span>
+            </div>
+
+            <figure class="ware-card__image-section">
+              <picture>
+                <source srcset="" type="image/webp">
+                <img class="ware-card__image"
+                     src="../../images/tyre_winter.png"
+                     alt="Изображение товара"
+                >
+              </picture>
+              <figcaption>Шина 205/80 R16 104Q Misha RF Power Grum Шина 205/80 R16 104Q Misha RF Power Grum</figcaption>
+            </figure>
+
+            <div class="ware-card__offer">
+              <p class="ware-card__offer  ware-card__offer_price">11 680 ₽</p>
+              <div class="ware-card__offer hidden ware-card__offer_not-available">
+                <p class="ware-card__not-available-text">Нет в наличии</p>
+                <button class="button ware-card__notify-button"
+                        type="button"
+                >Сообщить о поступлении</button>
+              </div>
+            </div>
+
+            <span class=" ware-card__presence-icon card__attribute"></span>
+
+            <button
+              class="button ware-card__preview-button"
+              type="button"
+            >
+              Быстрый просмотр
+            </button>
+
+          </a>
+
+          <a class="card ware-card link" href="#">
+
+            <p class="ware-card__flag">Sale</p>
+
+            <div class="ware-card__attributes-section">
+              <button
+                class="button favorite-button card__attribute"
+                type="button"
+                title="Добавить в избранное"
+              ></button>
+              <span class="card__attribute snowflake-icon"></span>
+            </div>
+
+            <figure class="ware-card__image-section">
+              <picture>
+                <source srcset="" type="image/webp">
+                <img class="ware-card__image"
+                     src="../../images/tyre_winter.png"
+                     alt="Изображение товара"
+                >
+              </picture>
+              <figcaption>Шина 205/80 R16 104Q Misha RF Power Grum Шина 205/80 R16 104Q Misha RF Power Grum</figcaption>
+            </figure>
+
+            <div class="ware-card__offer">
+              <p class="ware-card__offer  ware-card__offer_price">11 680 ₽</p>
+              <div class="ware-card__offer hidden ware-card__offer_not-available">
+                <p class="ware-card__not-available-text">Нет в наличии</p>
+                <button class="button ware-card__notify-button"
+                        type="button"
+                >Сообщить о поступлении</button>
+              </div>
+            </div>
+
+            <span class=" ware-card__presence-icon card__attribute"></span>
+
+            <button
+              class="button ware-card__preview-button"
+              type="button"
+            >
+              Быстрый просмотр
+            </button>
+
+          </a>
+
+        </div>
+
       </div>
-
-      <span class=" ware-card__presence-icon card__attribute"></span>
-
-      <button
-        class="button ware-card__preview-button"
-        type="button"
-      >
-        Быстрый просмотр
-      </button>
-
-    </a>
-
+    </section>
 
 
   </main>

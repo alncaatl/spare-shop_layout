@@ -1,4 +1,5 @@
 @import url('_active/horizontal-scroll__item_active.css');
+@import url('_active/_placed/_header/horizontal-scroll__item_active_placed_header.css');
 
 .horizontal-scroll__item {
     white-space: nowrap;

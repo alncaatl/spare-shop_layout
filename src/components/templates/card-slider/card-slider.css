@@ -1,0 +1,10 @@
+@import url('__button/card-slider__button.css');
+@import url('__button/_left/card-slider__button_left.css');
+@import url('__button/_right/card-slider__button_right.css');
+
+.card-slider {
+    display: flex;
+    gap: 30px;
+    width: min-content;
+    align-self: center;
+}

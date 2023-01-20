@@ -1,0 +1,4 @@
+.card-slider__button_right {
+    transform: translateY(-50%) rotate(180deg);
+    right: -65px;
+}

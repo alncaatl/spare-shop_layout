@@ -1,0 +1,10 @@
+.offers__more-button {
+    margin: 35px 0 0;
+    height: 50px;
+    width: min-content;
+    padding: 0 50px;
+    align-self: center;
+    white-space: nowrap;
+
+    font-size: 15px;
+}

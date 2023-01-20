@@ -1,0 +1,13 @@
+.button_grey {
+    background-color: #f0f0f4;
+    color: #bdbec2;
+
+    font-weight: bold;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.button_grey:hover {
+    background-color: #d9d9e0;
+    color: #48494d;
+}

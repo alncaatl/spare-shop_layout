@@ -3,6 +3,7 @@
 /* Templates */
 @import url('../../components/templates/button/button.css');
 @import url('../../components/templates/button/_orange/button_orange.css');
+@import url('../../components/templates/button/_grey/button_grey.css');
 @import url('../../components/templates/card/card.css');
 @import url('../../components/templates/input/input.css');
 @import url('../../components/templates/link/link.css');
@@ -11,6 +12,7 @@
 /* Templates _complex */
 @import url('../../components/templates/horizontal-scroll/horizontal-scroll.css');
 @import url('../../components/templates/slider/slider.css');
+@import url('../../components/templates/card-slider/card-slider.css');
 @import url('../../components/templates/timer/timer.css');
 
 /* UI elements */
@@ -19,11 +21,14 @@
 @import url('../../components/ui-elements/icons/snowflake-icon/snowflake-icon.css');
 @import url('../../components/ui-elements/icons/sun-icon/sun-icon.css');
 @import url('../../components/ui-elements/logo/logo.css');
+@import url('../../components/ui-elements/section-header/section-header.css');
 
 /* Blocks */
 @import url('../../components/blocks/ware-card/ware-card.css');
 @import url('../../components/blocks/footer/footer.css');
 @import url('../../components/blocks/header/header.css');
+@import url('../../components/blocks/main/main.css');
+@import url('../../components/blocks/offers/offers.css');
 @import url('../../components/blocks/promo/promo.css');
 @import url('../../components/blocks/promo-card/promo-card.css');
 @import url('../../components/blocks/root/root.css');

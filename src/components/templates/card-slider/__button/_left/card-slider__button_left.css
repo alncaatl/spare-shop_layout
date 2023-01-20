@@ -1,0 +1,4 @@
+.card-slider__button_left {
+    transform: translateY(-50%);
+    left: -65px;
+}

@@ -5,15 +5,18 @@
 @import url('__slider-dots/promo__slider-dots.css');
 
 
+.promo {
+    margin: 0;
+}
+
+
 @media screen and (min-width: 940px) {
     .promo {
         height: 400px;
-        margin: 80px 0;
     }
 }
 
 @media screen and (max-width: 939px) {
     .promo {
-        margin: 30px 0;
     }
 }

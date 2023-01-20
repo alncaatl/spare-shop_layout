@@ -11,8 +11,7 @@
 
 /* nav-row */
 @import url('__nav-row/header__nav-row.css');
-@import url('__categories-list/header__categories-list.css');
-@import url('__categories-item/header__categories-item.css');
+@import url('__nav-list/header__nav-list.css');
 
 
 .header {
