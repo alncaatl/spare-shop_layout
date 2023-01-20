@@ -1,0 +1,7 @@
+@import url('__container/banner__container.css');
+@import url('__link/banner__link.css');
+
+.banner {
+    max-height: 165px;
+    width: 100%;
+}

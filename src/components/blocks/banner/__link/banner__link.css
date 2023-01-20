@@ -1,0 +1,18 @@
+.banner__link {
+    display: block;
+    width: 100%;
+    padding-top: 14.1%;
+
+    background-image: url("../../../../images/banner-picture.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+@media screen and (max-width: 659px) {
+    .banner__link {
+        padding-top: 28.75%;
+        background-size: cover;
+    }
+}
