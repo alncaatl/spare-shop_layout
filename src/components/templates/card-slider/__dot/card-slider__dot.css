@@ -1,0 +1,6 @@
+.card-slider__dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,5 @@
+@media screen and (min-width: 1040px) {
+    .offers__more-button_placed_relevant-buys {
+        display: none;
+    }
+}
