@@ -1,10 +1,22 @@
 @import url('__button/card-slider__button.css');
 @import url('__button/_left/card-slider__button_left.css');
 @import url('__button/_right/card-slider__button_right.css');
+@import url('__cards-wrapper/card-slider__cards-wrapper.css');
+@import url('__cards-container/card-slider__cards-container.css');
+@import url('__dots/card-slider__dots.css');
+@import url('__dot/card-slider__dot.css');
+@import url('__dot/_active/card-slider__dot_active.css');
+
 
 .card-slider {
     display: flex;
-    gap: 30px;
-    width: min-content;
+    flex-direction: column;
     align-self: center;
+    overflow: visible;
+}
+
+@media screen and (min-width: 1350px) {
+    .card-slider {
+        width: 100%;
+    }
 }
