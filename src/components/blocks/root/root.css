@@ -9,4 +9,6 @@
     color: #48494D;
 
     min-width: 320px;
+
+    transition: transform 3s ease-in-out;
 }
