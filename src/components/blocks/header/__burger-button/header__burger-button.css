@@ -1,6 +1,11 @@
 .header__burger-button {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 30px;
+
+    background-image: url("data:image/svg+xml,%3Csvg width='33' height='28' viewBox='0 0 33 28' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect y='0.831909' width='33' height='3' rx='1.5' fill='%23C4C4C4'/%3E%3Crect y='12.8319' width='33' height='3' rx='1.5' fill='%23C4C4C4'/%3E%3Crect y='24.8319' width='33' height='3' rx='1.5' fill='%23C4C4C4'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 

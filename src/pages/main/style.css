@@ -24,6 +24,8 @@
 @import url('../../components/ui-elements/section-header/section-header.css');
 
 /* Blocks */
+@import url('../../components/blocks/burger-menu/burger-menu.css');
+@import url('../../components/blocks/burger-opened/burger-opened.css');
 @import url('../../components/blocks/ware-card/ware-card.css');
 @import url('../../components/blocks/footer/footer.css');
 @import url('../../components/blocks/header/header.css');
