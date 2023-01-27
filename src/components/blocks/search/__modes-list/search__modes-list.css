@@ -10,6 +10,7 @@
         justify-content: flex-start;
         color: #000;
         height: 50px;
+        gap: 0;
     }
 }
 
